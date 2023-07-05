@@ -68,6 +68,11 @@ p {
   padding: 160px 20px;
 }
 
+.my-img {
+    border-radius: 20px;
+    margin-top: 150px;
+}
+
 h1 {
   font-size: 96px;
   line-height: 1.5;
@@ -75,6 +80,10 @@ h1 {
 
 h2 {
   font-size: 64px;
+}
+
+h4{
+  font-size: 48px;
 }
 
 p {
@@ -158,6 +167,16 @@ p {
   color: var(--primary-color);
 }
 
+footer .contact-box{
+  background-color: #F9F7FE;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p{
+  margin: 0;
+}
+
 footer .email-link{
   text-decoration: none;
   color: var(--secondary-color);
@@ -211,7 +230,6 @@ footer .socials a:hover{
     font-size: 18px !important;
   }
 }
-
 /*
 .feature p {
   text-align: center;
